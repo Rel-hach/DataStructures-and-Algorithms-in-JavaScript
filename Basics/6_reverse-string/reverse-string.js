@@ -13,7 +13,7 @@ function reverseString(str) {
 /*
     function reverseString(str) {
 
-    let reversedStr = "";
+    let reversedStr = ""; 
     let x = str.length - 1;
 
     for (let i = x; i >= 0; i--){
