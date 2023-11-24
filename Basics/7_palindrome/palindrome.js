@@ -5,7 +5,7 @@ this is the hard coded method
 
 
 function isPalindrome (str) {
-    const formattedStr = str.toLowerCase().replace(/[a-z0-9]/g, '');
+    const formattedStr = str.formatString(str);
     if (formattedStr.length == 0 || formattedStr.length == 1) return (true);
     if (formattedStr.length % 2 == 0) return (false);
     
@@ -26,7 +26,8 @@ function formatString(str)
     {
         if (isAlphaNumeric(str[i]))
         s += str[i];
-}
+    }
+    return (s);
 }
 
 

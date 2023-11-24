@@ -27,6 +27,6 @@ function reverseString(str) {
 
 // const reverseString = (str) => str.split("").reverse().join('');
 
-// in the last example we split the string to have an array so we can reverse it with reverse () then we join it again.
+// in the last example we split the string to have an array of character so we can reverse it with reverse () then we join it again.
 
 module.exports = reverseString;
